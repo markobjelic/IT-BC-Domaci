@@ -22,5 +22,12 @@ public class Main {
         recept.dodajSastojak(secer);
 
         System.out.println(recept);
+
+        System.out.println("ukupna cena ovog recepta je: " + recept.ukupnaCenaRecepta());
+
+        Recept skaliranRecept = new Recept();
+        skaliranRecept.skaliran(recept, 50);
+        System.out.println(skaliranRecept);
+
     }
 }
