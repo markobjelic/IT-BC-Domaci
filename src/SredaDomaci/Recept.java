@@ -113,6 +113,7 @@ public class Recept {
 
 //        -kad se pravi prazan Recept iznad:
 //        skaliranRecept.nazivRecepta = receptZaSkaliranje.nazivRecepta; // ovo ne moze jer su private pa mora set/get
+//        -dakle, mora ovako:
 //        skaliranRecept.setNazivRecepta(receptZaSkaliranje.getNazivRecepta());
 //        skaliranRecept.setTezinaRecepta(receptZaSkaliranje.getTezinaRecepta());
 //        skaliranRecept.setKolekcijaSastojaka(receptZaSkaliranje.getKolekcijaSastojaka());
